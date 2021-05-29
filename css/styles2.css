@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color: #40514E;
+}
+
+h1{
+
+    font-size: 90px;
+    font-family: 'Sacramento', cursive;
+    margin-bottom: 0;
+    margin-top: 70px;
+    line-height:2;
+}
+
+h1,h2{
+    color: #66BFBF;
+}
+a{
+    text-decoration: none;
+    color: #11999E;
+}
+h3{
+    color: #11999E;
+}
+
+
+.skill-row{
+    width: 50%;
+    
+    margin: 100px auto;
+    text-align: left;
+    position: relative;
+}
+
+
+.top-container{
+    background-color: #EAF6F6;
+    text-align: center;
+    position: relative;
+    
+    padding-top: 50px;
+    
+}
+.bottom-cloud{
+    position:absolute;
+    left:400px;
+    
+}
+.pro{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    font-weight:normal;
+    margin-top: 0;
+    color: #66BFBF;;
+   
+    
+}
+.top-cloud{
+    position: absolute;
+    right: 350px;
+    top: 50px;
+}
+.middle-container{
+    padding-top: 20px;
+    text-align: center;
+}
+.profile-pic{
+ 
+    display: inline-block;
+    border-radius: 20%;
+    width: 300px;
+    height: 300px;
+    
+}
+.profile-pic img{
+
+    width: 85%;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+.skill-pic{
+    
+    border-radius: 50%;
+    width: 25%;
+   float: left;
+   padding-right: 30px;
+}
+.skill1{
+    padding-top: 30px;
+}
+
+.skill-row p{
+    line-height: 2;
+    font-size: 1.3rem;
+ 
+    
+}
+.football-pic{
+    
+    border-radius: 50%;
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+.my-hr{
+    border-style: none;
+    border-bottom: 6px dotted grey;
+    margin: auto;
+    width: 4%;
+    margin: 80px auto;
+
+}
+
+
+.copyright{
+    font-size: 0.9rem;
+    font-weight: bolder;
+    color:#EAF6F6;
+    margin-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+.profile p{
+    width: 40%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.bottom-container{
+    text-align: center;
+    background-color: #66BFBF;
+   padding: 50px 0 5px;
+    
+}
+.bottom-container a{
+    font-family:'Merriweather', serif; 
+    margin: 10px 20px 10px;
+    
+  
+}
+.bottom-container a:hover{
+   font-weight: bolder;
+   color: white;
+    
+  
+}
+/*button css*/
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    margin: 40px auto 60px;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
